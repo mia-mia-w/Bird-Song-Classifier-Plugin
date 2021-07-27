@@ -1,5 +1,5 @@
-name: "numpy-example"
-description: "Numpy example which computes some stats of a test frame."
+name: "Bird Song Classifier"
+description: "A Neural Network model that takes bird song audio file as input classifies bird species."
 version: "0.1.0"
 source:
   architectures:
