@@ -4,7 +4,7 @@ version: "0.1.0"
 source:
   architectures:
     - "linux/amd64"
-    - "linux/arm64"
+    
   url: "https://github.com/waggle-sensor/plugin-numpy-example"
   branch: "main"
   testing:
