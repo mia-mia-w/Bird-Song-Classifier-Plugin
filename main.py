@@ -16,7 +16,13 @@ def main():
     mic = Microphone()
     
     # load the machine learning model
-    model = load_model('saved_model/my_model')
+    file = open('model.json', 'r')
+    loaded  = file.read()
+    file.close()
+
+    model = model_from_json(loaded)
+    model.load_weights("model.h5")
+
     
     while True:
         # get data
