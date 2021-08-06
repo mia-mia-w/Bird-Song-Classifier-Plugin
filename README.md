@@ -1,6 +1,6 @@
-# Numpy Plugin Example
+# Bird song Classifier
 
-This is a simple plugin which uses numpy to compute some stats on a test image. While not very useful on its own, it serves as a starting point for other plugin developers.
+This is a simple Neural Network model that takes bird song audio file as input classifies bird species.
 
 ## Overview
 
